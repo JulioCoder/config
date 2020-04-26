@@ -1,0 +1,99 @@
+{
+  "workbench.iconTheme": "ayu",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "500",
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "debug.console.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "debug.console.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "500",
+  "window.zoomLevel": 0,
+  "python.pythonPath": "python",
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "code-runner.executorMap": {
+    "python": "$pythonPath -u $fullFileName"
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.ignoreSelection": true,
+  "code-runner.saveFileBeforeRun": true,
+  "[plaintext]": {
+    "editor.quickSuggestions": false
+  },
+  "editor.quickSuggestionsDelay": 100,
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideTabs": false,
+  "editor.minimap.enabled": false,
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.settings.editor": "json",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "css.fileExtensions": [
+    "css",
+    "scss"
+  ],
+  "css.remoteStyleSheets": [
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": true,
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "beautify.language": {
+    "js": {
+      "type": [
+        "javascript",
+        "json"
+      ],
+      "filename": [
+        ".jshintrc",
+        ".jsbeautifyrc"
+      ]
+      // "ext": ["js", "json"]
+      // ^^ to set extensions to be beautified using the javascript beautifier
+    },
+    "css": [
+      "css",
+      "scss"
+    ],
+    "html": [
+      "htm",
+      "html",
+      "django-html",
+    ],
+    // ^^ providing just an array sets the VS Code file type
+  },
+  //"force-aligned"
+  "html.format.wrapAttributes": "force-aligned",
+  "html.format.wrapLineLength": 80,
+  //"indentRainbow.errorColor": "rgba(32,32,32,0.1)",
+  "indentRainbow.ignoreErrorLanguages": [
+    "markdown",
+    "html",
+    "django-html"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "editor.cursorWidth": 4,
+  "html.autoClosingTags": true,
+  "html.mirrorCursorOnMatchingTag": true,
+}
