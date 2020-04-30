@@ -1,3 +1,6 @@
+### In Linux paste in:   ~/.config/Code/User/settings.json
+### If Other OS: Modify text editor and find the file changed. 
+
 {
   "workbench.iconTheme": "ayu",
   "editor.fontSize": 16,
