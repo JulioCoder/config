@@ -1,14 +1,15 @@
+### My old config of vscode, to code python and django
 ### In Linux paste in:   ~/.config/Code/User/settings.json
-### If Other OS: Modify text editor and find the file changed. 
+### If Other OS: Modify text editor and find the file changed
 
 {
   "workbench.iconTheme": "ayu",
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.fontWeight": "500",
   "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "debug.console.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-  "debug.console.fontSize": 16,
-  "terminal.integrated.fontSize": 16,
+  "debug.console.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": "500",
   "window.zoomLevel": 0,
   "python.pythonPath": "python",
@@ -37,6 +38,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "terminal.integrated.fontFamily": "monospace",
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.automationShell.linux": null,
   "workbench.colorTheme": "Ayu Mirage Bordered",
   "css.fileExtensions": [
     "css",
@@ -99,4 +101,5 @@
   "editor.cursorWidth": 4,
   "html.autoClosingTags": true,
   "html.mirrorCursorOnMatchingTag": true,
+  "liveServer.settings.donotShowInfoMsg": true,
 }
